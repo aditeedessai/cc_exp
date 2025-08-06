@@ -22,15 +22,12 @@ body {
     max-width: 400px;
 }
 
-
-
 .left-panel h1 {
     font-size: 32px;
     color: #b24020;
     margin-bottom: 30px;
 }
 
-.login-form input[type="text"],
 .login-form input[type="text"] {
     width: 100%;
     padding: 12px;
@@ -38,18 +35,6 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
-
-.show-text {
-    position: absolute;
-    right: 10px;
-    top: 12px;
-    font-size: 14px;
-    color: #0073b1;
-    cursor: pointer;
-}
-
-
 
 button {
     width: 100%;
@@ -87,10 +72,6 @@ button {
     z-index: 0;
 }
 
-.right-panel img {
-    width: 500px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.right-panel {
+    flex: 1;
 }
-
