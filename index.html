@@ -1,16 +1,34 @@
-html
-CopyEdit
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My CSS Website</title>
+    <title>LinkedIn Style Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Website</h1>
-        <p>This is a simple HTML and CSS site hosted on GitHub Pages.</p>
+    <div class="main-container">
+        <div class="left-panel">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn Logo" class="logo">
+            <h1>Welcome to your<br>professional community</h1>
+            
+            <form class="login-form">
+                <input type="text" placeholder="Email or phone" required>
+                <div class="password-wrapper">
+                    <input type="password" placeholder="Password" required>
+                    <span class="show-text">Show</span>
+                </div>
+                <a href="#" class="forgot">Forgot password?</a>
+                <button type="submit">Sign in</button>
+            </form>
+
+            <div class="divider"><span>or</span></div>
+        </div>
+
+        <div class="right-panel">
+            <img src="a26c8efa-2562-4ef4-b5ae-156c232292d8.png" alt="Welcome Illustration">
+        </div>
     </div>
 </body>
 </html>
+
+
