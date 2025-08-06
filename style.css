@@ -22,10 +22,7 @@ body {
     max-width: 400px;
 }
 
-.logo {
-    width: 50px;
-    margin-bottom: 30px;
-}
+
 
 .left-panel h1 {
     font-size: 32px;
@@ -34,7 +31,7 @@ body {
 }
 
 .login-form input[type="text"],
-.login-form input[type="password"] {
+.login-form input[type="text"] {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
@@ -42,9 +39,6 @@ body {
     border-radius: 4px;
 }
 
-.password-wrapper {
-    position: relative;
-}
 
 .show-text {
     position: absolute;
@@ -55,13 +49,7 @@ body {
     cursor: pointer;
 }
 
-.forgot {
-    display: block;
-    font-size: 14px;
-    color: #0073b1;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
+
 
 button {
     width: 100%;
@@ -105,3 +93,4 @@ button {
     height: auto;
     border-radius: 10px;
 }
+
