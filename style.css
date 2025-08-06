@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff;
+    background-color: #FFD1DC; /* pastel pink */
     color: #333;
 }
 
@@ -41,37 +41,4 @@ button {
     padding: 12px;
     background-color: #0073b1;
     color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.divider {
-    margin-top: 20px;
-    text-align: center;
-    color: #888;
-    position: relative;
-}
-
-.divider span {
-    background-color: #fff;
-    padding: 0 10px;
-    position: relative;
-    z-index: 1;
-}
-
-.divider::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    height: 1px;
-    width: 100%;
-    background-color: #ccc;
-    z-index: 0;
-}
-
-.right-panel {
-    flex: 1;
-}
+    border: n
